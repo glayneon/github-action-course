@@ -21,7 +21,7 @@ jobs:
         fruit: Strawberry
     - name: Step 3
       run: |
-        echo "Run Step 3, Make $fruit Juice!"     
+        echo "Run Step 3, Make $GITHUB_ACTOR Juice!"     
   build_2:
     runs-on: ubuntu-latest
     steps:
